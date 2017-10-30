@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//switch用法
 public class Month {
     public static void main(String args[]) {
         Scanner scn = new Scanner(System.in);
