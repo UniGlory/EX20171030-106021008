@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//if的用法
 public class Main {
 
     public static void main(String[] args) {
