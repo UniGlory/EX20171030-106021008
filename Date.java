@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//月份數字轉英文
 public class Date {
     public static void main(String args[]){
         Scanner scn=new Scanner(System.in);
