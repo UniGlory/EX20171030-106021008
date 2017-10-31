@@ -5,12 +5,12 @@ public class Circle {
         Scanner scn=new Scanner(System.in);
         int a=scn.nextInt();
         int b=scn.nextInt();
-        if (a>=200 || a<0){
-            System.out.println("outside");
-        }else if (b>=200 || b<0){
-            System.out.println("outside");
-        }else{
+        if (a<=100 && a>=-100){
             System.out.println("inside");
+        }else if (b<=100 && b>=-100){
+            System.out.println("inside");
+        }else{
+            System.out.println("outside");
         }
     }
 }
