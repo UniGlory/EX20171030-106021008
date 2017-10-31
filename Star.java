@@ -19,15 +19,15 @@ public class Star{
             System.out.println("Cancer");
         }else if (a==7&&b>=23&&b<=31 || a==8&&b>0&&b<=23){
             System.out.println("Leo");
-        }else if (a==8&&b>=24&&b<=30 || a==9&&b>0&&b<=23){
+        }else if (a==8&&b>=24&&b<=31 || a==9&&b>0&&b<=23){
             System.out.println("Virgo");
-        }else if (a==9&&b>=24&&b<=31 || a==10&&b>0&&b<=23){
+        }else if (a==9&&b>=24&&b<=30 || a==10&&b>0&&b<=23){
             System.out.println("Libra");
-        }else if (a==10&&b>=24&&b<=30 || a==11&&b>0&&b<=22){
+        }else if (a==10&&b>=24&&b<=31 || a==11&&b>0&&b<=22){
             System.out.println("Scorpio");
-        }else if (a==11&&b>=23&&b<=31 || a==12&&b>0&&b<=21){
+        }else if (a==11&&b>=23&&b<=30 || a==12&&b>0&&b<=21){
             System.out.println("Sagittarius");
-        }else if (a==12&&b>=22&&b<=30 || a==1&&b>0&&b<=20){
+        }else if (a==12&&b>=22&&b<=31 || a==1&&b>0&&b<=20){
             System.out.println("Capricorn");
         }else{
             System.out.println("Error");
