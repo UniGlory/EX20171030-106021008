@@ -5,11 +5,9 @@ public class Circle {
         Scanner scn=new Scanner(System.in);
         int a=scn.nextInt();
         int b=scn.nextInt();
-        if (a<=100 && a>=-100){
+       if (Math.sqrt(a*a+b*b)<=100){
             System.out.println("inside");
-        }else if (b<=100 && b>=-100){
-            System.out.println("inside");
-        }else{
+        }else {
             System.out.println("outside");
         }
     }
